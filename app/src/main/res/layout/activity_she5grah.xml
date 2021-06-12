@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".she5grahActivity">
+
+    <com.google.android.exoplayer2.ui.PlayerView
+        android:id="@+id/vidoView3"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </com.google.android.exoplayer2.ui.PlayerView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:text="الشيخ جراح هي قرية مقدسية - فلسطينية تتبع لمحافظة القدس وهي في الجانب الشرقي لمدينة القدس الذي وقع تحت الاحتلال الإسرائيلي في حرب 1967. وهي الآن من أحياء القدس الشرقية. أخذ حي الشيخ جراح بالقدس اسمه، من الأمير حسام الدين بن شرف الدين عيسى الجراحي، طبيب صلاح الدين الأيوبي، القائد الكردي المسلم، الذي تحول إلى رمز لأجيال عربية متعاقبة منذ نحو 900 عامًا، ويتهدده مخطط إسرائيلي استيطاني اعلن عنهُ الآن، ويتضمن بناء 200 وحدة سكنية لإسكان مستوطنين يهود فيها، وسط هذا الحي العربي الواقع في القدس الشرقية المحتلة عام 1967م."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
